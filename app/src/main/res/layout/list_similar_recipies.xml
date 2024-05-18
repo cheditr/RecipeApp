@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/similar_recipe_holder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp">
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="4dp">
+        <TextView
+            android:id="@+id/textView_similar_title"
+            android:text="Similar recipe"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/imageView_similar_recipe"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            />
+        <TextView
+            android:id="@+id/textView_servings"
+            android:text="4 servings"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
